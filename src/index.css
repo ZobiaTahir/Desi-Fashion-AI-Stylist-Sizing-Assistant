@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-brand {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom scrollbar for sleek ChatGPT look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 162, 158, 0.2);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 162, 158, 0.4);
+}
+
+/* Markdown styling inside chat messages */
+.desi-markdown h1,
+.desi-markdown h2,
+.desi-markdown h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #f5f5f4;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.desi-markdown h1 { font-size: 1.35rem; }
+.desi-markdown h2 { font-size: 1.2rem; }
+.desi-markdown h3 { font-size: 1.05rem; }
+
+.desi-markdown p {
+  margin-bottom: 0.75rem;
+  line-height: 1.65;
+}
+
+.desi-markdown ul,
+.desi-markdown ol {
+  margin-top: 0.4rem;
+  margin-bottom: 0.8rem;
+  padding-left: 1.4rem;
+}
+
+.desi-markdown ul {
+  list-style-type: disc;
+}
+
+.desi-markdown ol {
+  list-style-type: decimal;
+}
+
+.desi-markdown li {
+  margin-bottom: 0.35rem;
+  line-height: 1.55;
+}
+
+.desi-markdown strong {
+  color: #fef08a; /* Soft amber/gold emphasis */
+  font-weight: 600;
+}
+
+.desi-markdown blockquote {
+  border-left: 3px solid #d97706;
+  padding-left: 0.75rem;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+  color: #d6d3d1;
+}
+
+.desi-markdown table {
+  width: 100%;
+  margin: 0.75rem 0;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.desi-markdown th,
+.desi-markdown td {
+  border: 1px solid rgba(214, 211, 209, 0.2);
+  padding: 0.45rem 0.75rem;
+  text-align: left;
+}
+
+.desi-markdown th {
+  background-color: rgba(217, 119, 6, 0.15);
+  color: #fef08a;
+}

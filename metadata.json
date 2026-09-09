@@ -1,0 +1,6 @@
+{
+  "name": "Desi Fashion AI Stylist & Sizing Assistant",
+  "description": "An intelligent styling and sizing chatbot for South Asian fashion, offering trend-aware advice and personalized fit consultations for sarees, lehengas, kurtas, and festive fits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
